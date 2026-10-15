@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="../css/admin.css" />
+	<link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+	<title>Categories</title>
+</head>
+<body>
+	<div class="sidebar">
+		<div class="logo-details"><i class="bx bx-category"></i><span class="logo_name">CatShop</span></div>
+		<ul class="nav-links">
+			<li><a href="../admin.html"><i class="bx bx-grid-alt"></i><span class="links_name">Dashboard</span></a></li>
+			<li><a href="../categories/categories.html" class="active"><i class="bx bx-box"></i><span class="links_name">Categories</span></a></li>
+		</ul>
+	</div>
+	<section class="home-section">
+		<nav>
+			<div class="sidebar-button"><i class="bx bx-menu sidebarBtn"></i></div>
+			<div class="profile-details"><span class="admin_name">Catshop Admin</span></div>
+		</nav>
+		<div class="home-content">
+			<h3>Categories</h3>
+			<button type="button" class="btn btn-tambah"><a href="categories-entry.html">Tambah Data</a></button>
+			<table class="table-data">
+				<thead>
+					<tr><th>Photo</th><th>Categories</th><th>Description</th><th>Price</th><th>Action</th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><img src="../assets/thumbnail/anggora.png" alt="" /></td>
+						<td>Anggora</td>
+						<td>Anggora turki adalah salah satu ras kucing domestik alami tertua.</td>
+						<td>450,000</td>
+						<td><button class="btn-edit">Edit</button> <button class="btn-delete">Hapus</button></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</section>
+</body>
+</html>
